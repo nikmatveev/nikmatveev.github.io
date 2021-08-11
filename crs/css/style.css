@@ -145,7 +145,7 @@ nav{
 }
 .keis_top h2{
     text-align: center;
-    margin: 111px 0px 0px 0px;
+    margin-top: 111px;
     font-size: 33.33px;
     color: #384354;
     font-weight: 600;
@@ -156,4 +156,214 @@ nav{
     font-size: 16.67px;
     margin-top: 77px;
     color: #3f495a;
+}
+.keis img{
+    margin-top: 40px;
+    width: 80%;
+    height: auto;
+}
+.keis_text{
+    margin: 2200px 398px 0px 388px;
+}
+.keis_left{
+    margin-right: 50px;
+    line-height: 20px;
+    float: left;
+}
+.text_top{
+    font-size: 17px;
+    color: #384354;
+    font-weight: 600;
+    line-height: 20px;
+}
+.text_bottom{
+    font-size: 14px;
+    color: #3f495a;
+    line-height: 20px; 
+}
+.text_botto{
+    font-size: 14px;
+    color: #3f495a;
+    line-height: 20px; 
+    margin-bottom: 25px;
+}
+.keis_left a{
+    padding: 7px 25px;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #63b5ae;
+    text-align: center;
+}
+.opt{
+    margin-top: 286px;
+    text-align: center;
+}
+.opt_top{
+    font-size: 45px;
+    color: #1c2534;
+    font-weight: 900;
+}
+.opt h3{
+    font-size: 29px;
+    color: #1c2534;
+    margin-top: 48px;
+    font-weight: 600;
+}
+.luks{
+    
+    margin: 80px 400px;
+    text-align: left;
+} 
+select{
+    background-color: #eeeeee;
+    padding: 17px 461px;
+    margin-top: 28px;
+}
+.aaa{
+    margin-top: 68px;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 20px;
+    color: #1c2534;
+    word-spacing: 924px
+}
+.aa{
+    word-spacing: 880px;
+}
+.statistics{
+    width: 100%;
+    height: 498px;
+    background-image: url(../img/%D1%84%D0%BE%D0%BD%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0.jpg);
+    float: left;
+}
+.statistics_top{
+    text-align: center;
+    margin: 105px 0px 0px 0px;
+    font-size: 33.33px;
+    color: #384354;
+    font-weight: 600;
+    text-decoration: underline #d17700;
+}
+.item_statistics h4{
+    font-size: 25px;
+    color: #323e4f;
+    margin-top: 42px;
+    font-weight: 900;
+}
+.item_statistics p{
+    font-size: 16.67px;
+    color: #3f495a;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.comment{
+  text-align: center;
+}
+.comment h2{
+    text-align: center;
+    margin-top: 700px;
+    font-size: 33.33px;
+    color: #384354;
+    font-weight: 600;
+    text-decoration: underline #d17700;
+}
+.comment img{
+    margin: 103px 0px 56px 0px
+}
+.comment h4{
+    margin: 40px 550px;
+    font-size: 16px;
+    color: #3e4755;
+}
+.contacts{
+    width: 100%;
+    height: 96%;
+    background-image: url(../img/%D0%A4%D0%BE%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.jpg);
+    float: left;
+    color: #ffffff
+}
+.contacts{
+    text-align: center
+}
+.contacts h2{
+    text-align: center;
+    margin-top: 107px;
+    font-size: 33.33px;
+    font-weight: 600;
+    text-decoration: underline #d17700;
+    text-transform: uppercase;
+}
+.contacts>h4{
+    margin-top: 71px;
+    font-size: 16px;
+}
+.items2{
+    margin-left: 500px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.items_contacts{
+     float: left;
+    margin: 0px 50px;
+}
+.items_contacts h4{
+    text-align: center;
+     width: 160px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.contacts h3{
+    margin-top: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.conname{
+  margin-top: 40px;
+    margin-bottom: 20px;
+}
+.ni{
+    width: 354px;
+    height: 34px;
+     background-color:rgba(210, 214, 220, 0.8);
+    margin-right: 25px;
+}
+.ei{
+   width: 354px;
+    height: 34px; 
+    background-color:rgba(210, 214, 220, 0.8);
+}
+.conmasseng{
+    background-color:rgba(210, 214, 220, 0.8);
+    width: 733px;
+    height: 94px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+.data_end{
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color:rgba(210, 214, 220, 0);
+    text-align: center;
+}
+.map{
+     height: auto;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #354051; 
+}
+.end2{
+    color: #ffffff;
+    font-size: 13.33px;
+    margin: 43px 0px 0px 830px;
+    float: left;  
 }
