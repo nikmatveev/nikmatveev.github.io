@@ -1,20 +1,27 @@
+@font-face {
+	font-family: 'frangot';
+	src: url('../fonts/framd.eot');
+	src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'frangot', Arial, sans-serif;
 }
 
 nav{
     width: 100%;
     height: 60px;
-    background: #344051;    
+    background: #2a3e51;    
     position: fixed;
-    z-index: 1;
+    z-index: 5;
 }
 
 .logo{
     color: #fff;
-    font-size: 23.33px;
+    font-size: 22px;
     line-height: 60px;
-    margin: 0px 0px 0px 380px;
     float: left;  
     -webkit-animation: comming ease 2s;
     -o-animation: comming ease 2s;
@@ -23,33 +30,32 @@ nav{
 
 .menu{
     float: left;
-    padding-left: 433px;
 }
 
 .menu li{
     float: left;
     line-height: 60px;
     color: #fff;
-    font-size: 16.67px;
+    font-size: 14px;
     margin-right: 42px;
     text-transform: uppercase;
-     opacity: 0;
+    opacity: 0;
     -webkit-animation: right_nav 1.5s ease  forwards;
     -o-animation: right_nav 1.5s ease forwards;
     animation: right_nav 1.5s ease forwards;
 }
-.main{
+
+.fon-main{
     width: 100%;
     height: 100%;
     background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/auto 85% no-repeat , url(../img/%D1%84%D0%BE%D0%BD.jpg) center/cover no-repeat;
-    
 }
+
 .title_container{
     float: left;
-    margin: 333px 0px 0px 402px;
     color: #2c384a;
     text-align: center;
-    opacity: 0;
+  opacity: 0;
     -webkit-animation: left_main 1.2s ease  forwards;
     -o-animation: left_main 1.2s ease forwards;
     animation: left_main 1.2s ease forwards;
@@ -57,16 +63,19 @@ nav{
     -o-animation-delay: 2s;
     animation-delay: 2s;
 }
+
 .title_container h1{
     font-size: 79.17px;
-    font-weight: bold;
+    font-weight: 600;
+    width: 100%;
 }
+
 .title_container h4{
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 20.83px;
+    margin-top: 38px;
     color: #79818d;
-    font-weight: bold;
 }
+
 .title_container input{
     height: 40px;
     text-align: center;
@@ -74,15 +83,15 @@ nav{
     background: none;
     border-radius: 5px;
     color: #6d7682;
-    font-size: 13px;
+    font-size: 18.82px;
     padding: 0 14px;
-    margin: 60px 13px 0px 13px;   
+    margin: 53px 13px 0px 13px;   
 }
 .my{
     width: 100%;
     height: 100%;
     background-image: url(../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg);
-   text-align: center;
+    text-align: center;
     float: left;
 }
 .my h2{
@@ -98,11 +107,10 @@ nav{
     animation: my_bottom 2s ease forwards;
 }
 .my img{
-    margin: 97px 0px 0px 0px;
+    margin-top: 97px ;
 }
 .my p{
-    margin: 28px 597px;
-    text-align: left;
+    margin-top: 28px ;
     font-size: 17.67px;
     color: #3f495a;
     font-family: caibri;
@@ -120,53 +128,45 @@ nav{
 
 .skill{
    width: 100%;
-    height: 60%;
+    height: 70%;
     background-image: url(../img/%D1%84%D0%BE%D0%BD%20%D1%83%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     float: left;
 }
 
 .skill h2{
-    text-align: center;
-    margin: 111px 0px 0px 0px;
+    
+    margin-top: 107px;
     font-size: 33.33px;
     color: #263244;
     font-weight: 600;
     text-decoration: underline #d17700 ;
 }
 .items{
-    float: left;
-    margin: 134px 170px 0px 170px;
-    text-align: center;
+    margin-top: 120px;
 } 
 .items div{
-    float: left;
     text-align: center;
-    width: 300px;
-    margin: 0px 30px;
 }
-.item_skill h4{
+.pusk h4{
     font-size: 18.58px;
     color: #cf7600;
-    margin-top: 42px;
+    margin-top: 35px;
     font-weight: 600;
 }
-.item_skill p{
+.pusk p{
     font-size: 16.67px;
     color: #3f495a;
     margin-top: 20px;
 }
 .keis{
-    width: 100%;
-    height: 260px;
-    background-image: url(../img/%D1%84%D0%BE%D0%BD%20%D0%BA%D0%B5%D0%B9%D1%81%D1%8B.png);
-    float: left;
     -webkit-animation: my_bottom 2s ease  forwards;
     -o-animation: my_bottom 2s ease forwards;
     animation: my_bottom 2s ease forwards;
 }
 .keis_top h2{
     text-align: center;
-    margin-top: 111px;
     font-size: 33.33px;
     color: #384354;
     font-weight: 600;
@@ -175,30 +175,25 @@ nav{
 .keis_top h4{
     text-align: center;
     font-size: 16.67px;
-    margin-top: 77px;
+    margin-top: 50px;
     color: #3f495a;
 }
 .keis img{
-    margin-top: 40px;
+    margin-top: 30px;
     width: 80%;
-    height: auto;
 }
 .keis_text{
-    margin: 2200px 398px 0px 388px;
     -webkit-animation: my_bottom 2s ease  forwards;
     -o-animation: my_bottom 2s ease forwards;
     animation: my_bottom 2s ease forwards;
 }
 .keis_left{
-    margin-right: 50px;
     line-height: 20px;
-    float: left;
 }
 .text_top{
     font-size: 17px;
     color: #384354;
     font-weight: 600;
-    line-height: 20px;
 }
 .text_bottom{
     font-size: 14px;
@@ -211,18 +206,25 @@ nav{
     line-height: 20px; 
     margin-bottom: 25px;
 }
-.keis_left a{
+.sait a{
     padding: 7px 25px;
     border: 2px solid #63b5ae;
     border-radius: 5px;
-    color: #fff;
-    font-size: 20px;
+    font-size: 13px;
     background-color: #63b5ae;
     text-align: center;
+    color: #fff;
 }
 .opt{
-    margin-top: 286px;
     text-align: center;
+}
+.opt2{
+    border: solid 1px #e1e1e1;
+    box-shadow: 0 0 15px #e1e1e1;
+    margin: 20px 0px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 3% 5%;
 }
 .opt_top{
     font-size: 45px;
@@ -239,25 +241,21 @@ nav{
     font-weight: 600;
 }
 .luks{
-    
-    margin: 80px 400px;
     text-align: left;
 } 
 select{
     background-color: #eeeeee;
-    padding: 17px 461px;
+    padding: 17px 0px;
     margin-top: 28px;
 }
-.aaa{
-    margin-top: 68px;
-    text-transform: capitalize;
-    line-height: 30px;
-    font-size: 20px;
-    color: #1c2534;
-    word-spacing: 924px
-}
-.aa{
-    word-spacing: 880px;
+.zaiavka{
+     padding: 7px 25px;
+    border: 2px solid #00b6af;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #00b6af;
+    text-align: center;
+    color: #fff;
 }
 .statistics{
     width: 100%;
@@ -267,7 +265,6 @@ select{
     background-repeat: no-repeat;
     background-size: contain;
     float: left;
-   
 }
 .items{
     transform-style:preserve-3d;
@@ -294,57 +291,59 @@ select{
 }
 .comment{
   text-align: center;
+    height: 70%;
     -webkit-animation: my_bottom 2s ease  forwards;
     -o-animation: my_bottom 2s ease forwards;
     animation: my_bottom 2s ease forwards;
 }
 .comment h2{
     text-align: center;
-    margin-top: 700px;
+    margin-top: 600px;
     font-size: 33.33px;
     color: #384354;
     font-weight: 600;
     text-decoration: underline #d17700;
 }
 .comment img{
-    margin: 103px 0px 56px 0px
+    margin-top: 100px;
 }
 .comment h4{
-    margin: 40px 550px;
+    margin-top: 40px;
     font-size: 16px;
     color: #3e4755;
 }
 .contacts{
     width: 100%;
-    height: 96%;
+    height: 100%;
     background-image: url(../img/%D0%A4%D0%BE%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.jpg);
     float: left;
-    color: #ffffff
+    color: #ffffff;
+    background-position: center;
 }
 .contacts{
     text-align: center
 }
 .contacts h2{
     text-align: center;
-    margin-top: 107px;
+    margin-top: 50px;
     font-size: 33.33px;
     font-weight: 600;
     text-decoration: underline #d17700;
     text-transform: uppercase;
 }
-.contacts>h4{
+.contacts h4{
+    text-align: center;
     margin-top: 71px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .items2{
-    margin-left: 500px;
     margin-top: 50px;
     text-align: center;
     line-height: 20px;
 }
 .items_contacts{
      float: left;
-    margin: 0px 50px;
+    
 }
 .items_contacts h4{
     text-align: center;
@@ -353,9 +352,9 @@ select{
     margin-top: 20px;
 }
 .contacts h3{
-    margin-top: 200px;
+    margin-top: 20px;
     font-size: 20px;
-    text-transform: uppercase;
+   
     font-weight: 600;
 }
 .conname{
@@ -401,14 +400,16 @@ footer{
 .end2{
     color: #ffffff;
     font-size: 13.33px;
-    margin: 43px 0px 0px 830px;
-    float: left;  
+    margin-top: 43px;
+    float: left; 
+    text-align: center;
 }
 .menu li a{
     color: #fff;
     transition: all 0.2s;
     transform: scale(1);
     display: inline-block; 
+    text-decoration: none;
 }
 .menu li a:hover{
     color: #d17700;
@@ -476,7 +477,7 @@ main{
     }
     to{
         opacity: 1;
-        margin-left: 402px;
+        margin-left: 0px;
     }
 }
 .my input{
@@ -522,8 +523,6 @@ select{
     }
     to{
         opacity: 1;
-        padding-right: -1000px;
-        margin-left: 0px;
     }
 }
 .preloader{
@@ -590,4 +589,50 @@ select{
 
 .loaded .preloader {
     display: none;
+}
+@media (max-width: 991px){
+  .title_container, .title_container h4, .title_container input {
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+    .title_container input{
+         border: 2px solid #fff;
+    }
+    .main{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background:rgba(0, 0, 0, 0.4);
+    }
+}
+@media (max-width: 767px){
+    .lol{
+        opacity: 0;
+        transition: 0.1s;
+    }
+    .lil:hover~ .lol{
+        opacity: 1;
+        transition: 0.1s;
+    }
+    .skill h2{
+        margin-top: 0px;
+    }
+    .item_skill{
+        margin-top: -100px;
+    }
+    .contacts h4, .contacts h2, .items2{
+        margin-top: 25px;
+    }
+    .my img, .my h2{
+        margin-top: 10px;
+    }
+    .conmasseng{
+        width: 380px;
+    }
+    .ni, .ei{
+        width: 175px;
+    }
 }
