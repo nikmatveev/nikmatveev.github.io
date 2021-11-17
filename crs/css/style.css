@@ -206,6 +206,9 @@ nav{
     line-height: 20px; 
     margin-bottom: 25px;
 }
+.sait{
+    margin-top: 10px;
+}
 .sait a{
     padding: 7px 25px;
     border: 2px solid #63b5ae;
@@ -248,6 +251,12 @@ select{
     padding: 17px 0px;
     margin-top: 28px;
 }
+.symma{
+    margin-top: 25px;
+}
+.stroki{
+    margin-top: 63px; 
+}
 .zaiavka{
      padding: 7px 25px;
     border: 2px solid #00b6af;
@@ -256,6 +265,7 @@ select{
     background-color: #00b6af;
     text-align: center;
     color: #fff;
+    margin-top: 35px;
 }
 .statistics{
     width: 100%;
@@ -313,12 +323,13 @@ select{
     color: #3e4755;
 }
 .contacts{
+    background-image: url(../img/%D0%A4%D0%BE%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.jpg);
     width: 100%;
     height: 100%;
-    background-image: url(../img/%D0%A4%D0%BE%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.jpg);
     float: left;
     color: #ffffff;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .contacts{
     text-align: center
