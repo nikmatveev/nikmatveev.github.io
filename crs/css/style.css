@@ -166,10 +166,6 @@ nav{
     margin-top: 50px;
     color: #3f495a;
 }
-.keis img{
-    margin-top: 30px;
-    width: 80%;
-}
 .keis_text{
     -webkit-animation: my_bottom 2s ease  forwards;
     -o-animation: my_bottom 2s ease forwards;

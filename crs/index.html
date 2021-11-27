@@ -46,23 +46,23 @@
   </a>
 
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Обо мне</a></li>
-    <li><a class="dropdown-item" href="#">Услуги</a></li>
-    <li><a class="dropdown-item" href="#">Кейсы</a></li>
-    <li><a class="dropdown-item" href="#">Прайс</a></li>
-    <li><a class="dropdown-item" href="#">Отзовы</a></li>
-    <li><a class="dropdown-item" href="#">Контакты</a></li>
+    <li><a class="dropdown-item" href="a">Обо мне</a></li>
+    <li><a class="dropdown-item" href="a">Услуги</a></li>
+    <li><a class="dropdown-item" href="a">Кейсы</a></li>
+    <li><a class="dropdown-item" href="a">Прайс</a></li>
+    <li><a class="dropdown-item" href="a">Отзовы</a></li>
+    <li><a class="dropdown-item" href="a">Контакты</a></li>
   </ul>
 </div> 
                  
                   </div>
                   <div class="px=0 col-xxl-6 col-xl-8 col-lg-9 offset-xxl-4 offset-xl-2 d-none d-lg-block"> <div class="menu"><ul>
-               <li><a href="a">Обо мне</a></li>
-               <li><a href="a">Услуги</a></li>
-               <li><a href="a">Кейсы</a></li>
-               <li><a href="a">Прайс</a></li>
-               <li><a href="a">Отзовы</a></li>
-               <li><a href="a">Контакты</a></li>
+               <li><a href="#in_my">Обо мне</a></li>
+               <li><a href="#services">Услуги</a></li>
+               <li><a href="#works">Кейсы</a></li>
+               <li><a href="#price">Прайс</a></li>
+               <li><a href="#commint">Отзовы</a></li>
+               <li><a href="#telefon">Контакты</a></li>
            </ul></div></div>
               </div>
            
@@ -84,7 +84,7 @@
    
    </div></div></div></div>
    
- <section class="my"><div class="my_text">
+ <section class="my" id="in_my"><div class="my_text">
        <div class=""><h2>Обо мне</h2>
        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="фото в кгруге">
        <div class="col-8 offset-2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore corporis necessitatibus, illum tempora suscipit sed animi incidunt debitis dignissimos qui.</p>
@@ -93,7 +93,7 @@
    
    </section>
    
-   <section class="skill">
+   <section class="skill" id="services">
       <div class="col-xl-2 col-4 offset-xl-5 offset-5">
        <h2>Что я умею</h2></div>
        <div class="items">
@@ -133,13 +133,40 @@
        </div>
    </section>
    
+   <section id="works">
    <section class="keis">
            <div class="keis_top">
            <div class="col-xl-2 col-4 offset-xl-5 offset-4"><h2>Кейсы</h2></div>
            <div class="col-8 offset-2"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repellendus, esse libero accusamus ipsa corporis!</h4></div></div>
-           <div class="col-10 offset-1">
-          <img src="../crs/img/%D0%BA%D0%B5%D0%B9%D1%81.png" alt="кейсы"></div>
-            
+           <div class="col-10 coc">
+           <div id="cars" class="carousel carousel-dark  slide" data-bs-ride="carousel">
+           <div class="carousel-indicators col-10 ">
+    <button type="button" data-bs-target="#cars" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#cars" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#cars" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active col-9 offset-3">
+      <img src="img/%D0%BA%D0%B5%D0%B9%D1%81.png" class="d-block w-80" alt="кейс">
+    </div>
+    <div class="carousel-item col-10 offset-2">
+      <img src="img/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class="d-block w-100" alt="кейс">
+    </div>
+    <div class="carousel-item col-10 offset-2">
+      <img src="img/%D1%84%D0%BE%D0%BD%20%D1%83%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F.jpg" class="d-block w-100" alt="кейс">
+    </div>
+  </div>
+  <button class="carousel-control-prev offset-2" type="button" data-bs-target="#cars"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden ">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#cars"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+       </div>
+              
             </section>
            <section class="keis_text">
            <div class="keis_left">
@@ -166,8 +193,9 @@
             <a href="http://google.com" target="_blank">Перейти на сайт</a></div>
             <div class="col-1 offset-3"></div></div></div>
 </section>
+    </section>
     
-     <section class="opt">
+     <section class="opt" id="price">
           <div class="opt2">
            <div class="opt_top col-4 offset-4"><h2>Расчет стоймости</h2>
        </div>
@@ -255,14 +283,45 @@
        </div>
        </section>
       
-      <section class="comment">
-          <div class="col-xl-2 col-4 offset-xl-5 offset-4"><h2>Отзовы</h2>
-       <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B02.png" alt="фото мужчины"></div>
+      <section class="comment" id="commint">
+          <div class="col-xl-2 col-4 offset-xl-5 offset-4"><h2>Отзовы</h2></div>
+          <div class="col-10">
+           <div id="carus_in_bottom" class="carousel carousel-dark  slide" data-bs-ride="carousel">
+           <div class="carousel-indicators col-10 ">
+    <button type="button" data-bs-target="#carus_in_bottom" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carus_in_bottom" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carus_in_bottom" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active col-10 offset-1">
+      <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B02.png" alt="фото мужчины">
        <div class="col-8 offset-2"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita obcaecati, tempora porro velit odit asperiores. Itaque soluta cupiditate doloribus eaque, dolorem nam, nobis asperiores dignissimos?</h4></div>
-       <div class="col-2 offset-5"><h4>Михаил, Ген. директор ПАО"Гаазпром"</h4> </div>   
+       <div class="col-4 offset-4"><h4>Михаил, Ген. директор ПАО"Гаазпром</h4> </div> 
+    </div>
+    <div class="carousel-item col-10 offset-1">
+      <img src="img/%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0.png"  alt="фото мужчины">
+       <div class="col-8 offset-2"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita obcaecati, tempora porro velit odit asperiores. Itaque soluta cupiditate doloribus eaque, dolorem nam, nobis asperiores dignissimos?</h4></div>
+       <div class="col-2 offset-5"><h4>Александр, директор MARVEL</h4> </div> 
+    </div>
+    <div class="carousel-item col-10 offset-1">
+      <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="фото мужчины">
+       <div class="col-8 offset-2"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita obcaecati, tempora porro velit odit asperiores. Itaque soluta cupiditate doloribus eaque, dolorem nam, nobis asperiores dignissimos?</h4></div>
+       <div class="col-2 offset-5"><h4>Константин, директор DC</h4> </div> 
+    </div>
+  </div>
+  <button class="carousel-control-prev offset-2" type="button" data-bs-target="#carus_in_bottom"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden ">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carus_in_bottom"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+       </div>  
        </section>
    
-    <section class="contacts">
+    <section class="contacts" id="telefon">
            <div class="col-lg-4 col-6 offset-lg-4 offset-3"><h2>Мои контакты</h2></div>
            <div class="col-6 offset-3"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam harum est expedita accusamus cum.</h4></div>
           <div class="items2">
@@ -305,7 +364,8 @@
            </div>
        </footer>
      </main>
-   
+     
+<script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/myScript.js"></script>
 </body>
