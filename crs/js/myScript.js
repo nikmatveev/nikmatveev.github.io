@@ -64,4 +64,39 @@ else{
 }
 console.log(i);
 console.log(j);
-console.log(t);
+console.log(t);*/
+$(document).ready(function(){
+
+$(window).scroll(() => {
+    let scrollDistance = $(window).scrollTop();
+    $(".section").each((i,el) => {
+        if($(el).offset().top - $("nav").outerHeight() <=scrolDistance){
+            $("nav a").each((i, el) =>{
+                if ($(el).hasClass("active")){
+                    $(el).renoveClass("active");
+                }
+            });
+            $('nav li:eq('+ i +')').find('a').addClass('active');
+        }
+    });
+});
+    
+});
+$('a[href^="#"]').click(function(){
+   let valHref = $(this).attr("href"); 
+    $('html, body').animate({scrollTop: $(valHref).offset().top - 60 + "px"})
+});
+$(document).ready(function(){
+    let option = {threshold: [0,5]};
+    let observer = new IntersectionObserver(onEntry, options);
+   let elements = $(".element-animation");
+    elements.each(i, el) => {
+        observer.observe(el);
+    }
+)};
+function onEntry (entry){
+    entry.forEach(cheang => 
+                 if(change.isIntersecting){
+        change.target.classList.add('show-animation');
+    })
+}

@@ -230,7 +230,7 @@ nav{
 .luks{
     text-align: left;
 } 
-select{
+.element-animation{
     background-color: #eeeeee;
     padding: 17px 0px;
     margin-top: 28px;
@@ -253,19 +253,17 @@ select{
 }
 .statistics{
     width: 100%;
-    height: 60%;
+    height: 50%;
     background-image: url(../img/%D1%84%D0%BE%D0%BD%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0.jpg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: contain;
-    float: left;
+    background-position: center;
 }
 .items{
     transform-style:preserve-3d;
 }
 .statistics_top{
     text-align: center;
-    margin: 105px 0px 0px 0px;
+    margin-top: 50px;
     font-size: 33.33px;
     color: #384354;
     font-weight: 600;
@@ -292,7 +290,7 @@ select{
 }
 .comment h2{
     text-align: center;
-    margin-top: 600px;
+    margin-top: 60px;
     font-size: 33.33px;
     color: #384354;
     font-weight: 600;
@@ -313,7 +311,9 @@ select{
     float: left;
     color: #ffffff;
     background-position: center;
+   background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .contacts{
     text-align: center
